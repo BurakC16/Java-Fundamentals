@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Invoer {
     public static void main(String[] args) {
         System.out.print("Geef een getal: ");
-        Scanner scanner = new Scanner(System.in);
-        int getal = scanner.nextInt();
+        var scanner = new Scanner(System.in);
+        var getal = scanner.nextInt();
     }
 }
-
